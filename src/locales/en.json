@@ -1,9 +1,16 @@
 {
   "starting": {
-    "welcome": "Welcome to this React native boilerplace…",
-    "copyright": "copyright © All Rights Reserved 2019"
+    "welcome": "Welcome to Pick me up Application",
+    "copyright": "copyright © All Rights Reserved 2020"
   },
   "home": {
-    "homeTest": "Welcome  Home "
+    "homeTest": "Welcome  Home ",
+    "go": "GO ",
+    "pickmeUp": "Pickmeup ",
+    "hey": "Hey There ",
+    "typePhoneNumber": "Type in your phone number to get started ",
+    "orCanSign": "or you can sign in with ",
+    "facebook": "Facebook ",
+    "google": "Google"
   }
 }

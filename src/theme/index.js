@@ -4,28 +4,31 @@ export default {
   // FONT FAMILY
   FONT_FAMILY: Platform.select({
     android: 'Roboto',
-    ios: 'Arial',
+    ios: 'Roboto',
   }),
-  ARABIC_FONT_FAMILY: Platform.select({
-    android: 'Roboto',
-    ios: 'Arial',
+  FONT_FAMILY_SECONDARY: Platform.select({
+    android: 'sans-serif',
+    ios: 'sans-serif',
   }),
+
   // FONT SIZE
-  SIZE_SMALL: 12,
-  SIZE_MEDIUM: 14,
-  SIZE_LARGE: 16,
+  SIZE_SMALL: '1em',
+  SIZE_MEDIUM: '2em',
+  SIZE_LARGE: '3em',
   // FONT WEIGHT
   WEIGHT_LIGHT: '200',
   WEIGHT_MEDIUM: '600',
   WEIGHT_HEAVY: '800',
   // COLORS
   PRIMARY_COLOR_LIGHT: '#',
-  PRIMARY_COLOR: '#a6ce39',
+  PRIMARY_COLOR: '#06B49A',
   PRIMARY_COLOR_DARK: '#8dc53e',
   SECONDARY_COLOR_DARK: '#2d7bc3',
-  SECONDARY_COLOR: '#0095da',
+  SECONDARY_COLOR: '#AFDBD2',
   SECONDARY_COLOR_LIGHT: '#6095cd',
   WHITE: '#ffffff',
+  WHITE_POWDER: '#FFFDF9',
+  DARK_ONYX: '#36313D',
   LIGHTER: '#afafaf',
   LIGHT: '#707070',
   DEFAULT: '#4b4b4b',
