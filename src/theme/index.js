@@ -12,9 +12,9 @@ export default {
   }),
 
   // FONT SIZE
-  SIZE_SMALL: '1em',
-  SIZE_MEDIUM: '2em',
-  SIZE_LARGE: '3em',
+  SIZE_SMALL: 15,
+  SIZE_MEDIUM: 20,
+  SIZE_LARGE: 28,
   // FONT WEIGHT
   WEIGHT_LIGHT: '200',
   WEIGHT_MEDIUM: '600',

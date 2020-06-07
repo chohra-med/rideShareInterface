@@ -5,6 +5,7 @@ import {LOGO} from '../../assets/icons';
 import {strings} from '../../locales/i18n';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import {Input, Button} from 'react-native-elements';
+import CountryPicker, { getAllCountries, getCallingCode } from 'react-native-country-picker-modal';
 
 export default class Component extends React.PureComponent {
     render() {
@@ -18,7 +19,13 @@ export default class Component extends React.PureComponent {
                     <Text style={styles.heyThereText}>{strings('home.heyThere')}</Text>
                     <Text style={styles.typeText}>{strings('home.typePhoneNumber')}</Text>
                 </View>
-                <Input/>
+                <View>
+                    {/*<CountryPicker*/}
+                    {/*    withEmoji*/}
+                    {/*/>*/}
+                    <Input/>
+
+                </View>
                     <Text style={styles.typeText}>{strings('home.orCanSign')}</Text>
                 <View style={styles.socialMediaSigning}>
                     <Button title={strings('home.facebook')}/>
