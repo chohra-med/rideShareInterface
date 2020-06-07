@@ -4,7 +4,7 @@ export default {
   // FONT FAMILY
   FONT_FAMILY: Platform.select({
     android: 'Roboto',
-    ios: 'Roboto',
+    ios: 'Arial',
   }),
   FONT_FAMILY_SECONDARY: Platform.select({
     android: 'sans-serif',
@@ -22,7 +22,7 @@ export default {
   // COLORS
   PRIMARY_COLOR_LIGHT: '#',
   PRIMARY_COLOR: '#06B49A',
-  PRIMARY_COLOR_DARK: '#8dc53e',
+  PRIMARY_COLOR_DARK: '#2667C9',
   SECONDARY_COLOR_DARK: '#2d7bc3',
   SECONDARY_COLOR: '#AFDBD2',
   SECONDARY_COLOR_LIGHT: '#6095cd',

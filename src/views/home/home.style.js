@@ -7,6 +7,7 @@ export default StyleSheet.create({
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor:theme.PRIMARY_COLOR_DARK
   },
   logo: {
     width: Dimensions.get('window').width * 0.6,
@@ -29,5 +30,20 @@ export default StyleSheet.create({
     fontWeight: theme.WEIGHT_LIGHT,
     color: theme.PRIMARY_COLOR,
     textAlign: 'center',
+  },
+  logoAndText:{
+
+  },
+  welcomeText:{
+
+  },
+  heyThereText:{
+
+  },
+  typeText:{
+
+  },
+  socialMediaSigning:{
+
   },
 });
