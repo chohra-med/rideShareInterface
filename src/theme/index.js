@@ -12,7 +12,7 @@ export default {
   }),
 
   // FONT SIZE
-  SIZE_SMALL: 15,
+  SIZE_SMALL: 16,
   SIZE_MEDIUM: 20,
   SIZE_LARGE: 28,
   // FONT WEIGHT
